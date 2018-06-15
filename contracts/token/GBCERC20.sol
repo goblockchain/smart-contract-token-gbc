@@ -14,7 +14,7 @@ contract GOToken is StandardToken, Ownable {
 
     function mint(address _to, uint256 _value) public onlyOwner {
         totalSupply_ = totalSupply_.add(_value);
-        balances[_to] =  balances[_to].add(_value);
+        balances[_to] = balances[_to].add(_value);
 
         emit MintEvent(_to, _value);
     }
