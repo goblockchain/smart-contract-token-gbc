@@ -3,8 +3,9 @@ pragma solidity 0.4.24;
 import "../zeppelin/ownership/Ownable.sol";
 import "../zeppelin/token/ERC20/StandardToken.sol";
 import "../zeppelin/math/SafeMath.sol";
+import "../Colabs.sol";
 
-contract GOToken is StandardToken, Ownable {
+contract GOToken is StandardToken, Colabs {
     using SafeMath for uint256;
 
     string public name = "Go Token";
