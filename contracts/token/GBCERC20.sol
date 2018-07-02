@@ -3,15 +3,25 @@ pragma solidity 0.4.24;
 import "../zeppelin/ownership/Ownable.sol";
 import "../zeppelin/token/ERC20/StandardToken.sol";
 import "../zeppelin/math/SafeMath.sol";
-import "../Colabs.sol";
+import "../Collaborator.sol";
 
-contract GOToken is StandardToken, Colabs {
+contract GOToken is StandardToken, Collaborator {
     using SafeMath for uint256;
 
     string public name = "Go Token";
     uint8 public decimals = 2;
     string public symbol = "GBC";
     string public version = "GBC 1.0";
+
+    //ditribuir
+    //40% colabs
+    //30% founder
+    //30% investiment
+
+    constructor() public {
+        totalSupply_ = 10000000;
+        balances[msg.sender] = totalSupply_;  
+    }
 
     function mint(address _to, uint256 _value) public onlyOwner {
         totalSupply_ = totalSupply_.add(_value);

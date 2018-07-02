@@ -14,6 +14,8 @@ contract Collaborator is Ownable, RBAC {
     string public constant ROLE_AMBASSADOR = "ambassador";
     string public constant ROLE_COLLABORATOR = "collaborator";
 
+    event NewCollaborator(address collaborator);
+
     /**
     * @dev constructor. Sets msg.sender as admin by default
     */
@@ -71,8 +73,9 @@ contract Collaborator is Ownable, RBAC {
     /**
     * @dev add a collaborator
     **/
-    function addCollaborator() internal {
-        addRole(_advisors[i], ROLE_COLLABORATOR);
+    function addCollaborator(address collaborator) internal {
+        addRole(collaborator, ROLE_COLLABORATOR);
+        emit NewCollaborator(collaborator);
     }
 
     /**
@@ -108,51 +111,3 @@ contract Collaborator is Ownable, RBAC {
 
 }
 
-contract TermsAndCondition is Collaborator {
-    string public hash;
-    event TermsAndConditionChanged(address sender, uint256 time);
-
-    function setTermsAndCondition(string _hash) public onlyAdminOrAdvisor {
-        hash = _hash;
-        emit TermsAndConditionChanged(msg.sender, now);
-    }
-    function getHash() public view returns(string) {
-        return hash;
-    }
-}
-
-contract PersonIdentity is TermsAndCondition {
-
-    enum Status {PENDING, APPROVE, REJECTED}
-    Status status;
-    mapping (address=>Person) public mapPerson;
-    Person[] public person;
-    struct Person {
-        address sender;
-        string name;
-        string profileLinkedin;
-        Status status;
-        string hashTerms;
-    }
-
-    function requestApprove(string _name, string _hashTerms, string _profileLinkedin) external {
-        require(mapPersonValid[msg.sender] == 0x0);
-        Person memory p = Person ({
-            sender: msg.sender,
-            name: _name,
-            profileLinkedin: _profileLinkedin,
-            status: Status.PENDING,
-            hashTerms: _hashTerms
-        });
-        person.push(p);
-        mapPerson[msg.sender] = p;
-    }
-    
-    function validate(int32 _addressToApprove, bool approveOrDisapprove) external onlyAdminOrAdvisor {
-        Person p = person[_addressToApprove];
-        mapPersonValid[p.sender].isValid = approveOrDisapprove;
-        if (approveOrDisapprove) {
-
-        }
-    }
-}
