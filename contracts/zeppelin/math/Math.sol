@@ -6,6 +6,7 @@ pragma solidity ^0.4.23;
  * @dev Assorted math operations
  */
 library Math {
+
   function max64(uint64 a, uint64 b) internal pure returns (uint64) {
     return a >= b ? a : b;
   }

@@ -8,7 +8,7 @@ import "../Collaborator.sol";
 contract GOToken is StandardToken, Collaborator {
     using SafeMath for uint256;
 
-    string public name = "Go Token";
+    string public name = "GOCoin Token";
     uint8 public decimals = 2;
     string public symbol = "GBC";
     string public version = "GBC 1.0";
