@@ -13,6 +13,9 @@ contract GOToken is StandardToken, Collaborator {
     string public symbol = "GBC";
     string public version = "GBC 1.0";
 
+    event MintEvent(address indexed to, uint value);
+    event DestroyEvent(address indexed from, uint value);
+
     //ditribuir
     //40% colabs
     //30% founder
@@ -36,7 +39,4 @@ contract GOToken is StandardToken, Collaborator {
 
         emit DestroyEvent(_from, _value);
     }
-
-    event MintEvent(address indexed to, uint value);
-    event DestroyEvent(address indexed from, uint value);
 }
