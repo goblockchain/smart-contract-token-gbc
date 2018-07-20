@@ -1,0 +1,97 @@
+{
+  "contractName": "Reputation",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058204e1e4275c199351dcee4ea6f39d5afebc0b43214caef0efeb0f07d9e1286c2ef0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058204e1e4275c199351dcee4ea6f39d5afebc0b43214caef0efeb0f07d9e1286c2ef0029",
+  "sourceMap": "94:23:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;94:23:2;;;;;;;",
+  "deployedSourceMap": "94:23:2:-;;;;;",
+  "source": "pragma solidity ^0.4.23;\n\n\n/**\n * @title Reputation\n * @dev Reputationso of collaborators\n */\ncontract Reputation {\n}",
+  "sourcePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/Reputation.sol",
+  "ast": {
+    "absolutePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/Reputation.sol",
+    "exportedSymbols": {
+      "Reputation": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 61,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Reputation\n@dev Reputationso of collaborators",
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "Reputation",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 63,
+        "src": "94:23:2"
+      }
+    ],
+    "src": "0:117:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/Reputation.sol",
+    "exportedSymbols": {
+      "Reputation": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 61,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Reputation\n@dev Reputationso of collaborators",
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "Reputation",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 63,
+        "src": "94:23:2"
+      }
+    ],
+    "src": "0:117:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-20T01:17:32.757Z"
+}

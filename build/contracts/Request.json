@@ -1,0 +1,97 @@
+{
+  "contractName": "Request",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820da98ac5b00b9218992211a68d5a4fc434dc0c4ff495e59813a233d2f1e31a33c0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820da98ac5b00b9218992211a68d5a4fc434dc0c4ff495e59813a233d2f1e31a33c0029",
+  "sourceMap": "76:20:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;76:20:3;;;;;;;",
+  "deployedSourceMap": "76:20:3:-;;;;;",
+  "source": "pragma solidity ^0.4.23;\n\n\n/**\n * @title Request\n * @dev Request tokens\n */\ncontract Request {\n}",
+  "sourcePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/Request.sol",
+  "ast": {
+    "absolutePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/Request.sol",
+    "exportedSymbols": {
+      "Request": [
+        65
+      ]
+    },
+    "id": 66,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 64,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Request\n@dev Request tokens",
+        "fullyImplemented": true,
+        "id": 65,
+        "linearizedBaseContracts": [
+          65
+        ],
+        "name": "Request",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 66,
+        "src": "76:20:3"
+      }
+    ],
+    "src": "0:96:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/Request.sol",
+    "exportedSymbols": {
+      "Request": [
+        65
+      ]
+    },
+    "id": 66,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 64,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Request\n@dev Request tokens",
+        "fullyImplemented": true,
+        "id": 65,
+        "linearizedBaseContracts": [
+          65
+        ],
+        "name": "Request",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 66,
+        "src": "76:20:3"
+      }
+    ],
+    "src": "0:96:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-20T01:17:32.757Z"
+}

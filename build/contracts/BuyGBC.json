@@ -1,0 +1,97 @@
+{
+  "contractName": "BuyGBC",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820a8a529e3ef207819b465fda5da0753cbd9763d4f34f0f38b8fee8917dfb0afc00029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820a8a529e3ef207819b465fda5da0753cbd9763d4f34f0f38b8fee8917dfb0afc00029",
+  "sourceMap": "79:19:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:19:0;;;;;;;",
+  "deployedSourceMap": "79:19:0:-;;;;;",
+  "source": "pragma solidity ^0.4.23;\n\n\n/**\n * @title BuyGBC\n * @dev Buy GBC with Ether\n */\ncontract BuyGBC {\n}",
+  "sourcePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/BuyGBC.sol",
+  "ast": {
+    "absolutePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/BuyGBC.sol",
+    "exportedSymbols": {
+      "BuyGBC": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title BuyGBC\n@dev Buy GBC with Ether",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "BuyGBC",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "79:19:0"
+      }
+    ],
+    "src": "0:98:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/henrique/Documents/goblockchain/smart-contract-token-gbc/contracts/BuyGBC.sol",
+    "exportedSymbols": {
+      "BuyGBC": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title BuyGBC\n@dev Buy GBC with Ether",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "BuyGBC",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "79:19:0"
+      }
+    ],
+    "src": "0:98:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-20T01:17:32.756Z"
+}
