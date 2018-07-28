@@ -21,7 +21,7 @@ contract GBCERC20 is StandardToken, Ownable {
     //30% investiment
 
     constructor() public {
-        totalSupply_ = 10000000;
+        totalSupply_ = 10000000 * 10 ** decimals;
         balances[msg.sender] = totalSupply_;  
     }
 
