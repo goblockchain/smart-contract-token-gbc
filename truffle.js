@@ -1,5 +1,5 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var mnemonic = "colocar as chaves do metamask aqui";
+var mnemonic = "";
 
 module.exports = {
   networks: {
@@ -22,6 +22,13 @@ module.exports = {
       network_id: '4',
       gas: 4500000,
       gasPrice: 10000000000,
+    },
+    mainnet: {
+      provider: function () {
+        return new HDWalletProvider(mnemonic, 'https://mainnet.infura.io/v3/d46d0f948caa4977a97cdd2dbfce3228')
+      },
+      network_id: '1',
+      gas: 4500000
     }
   }
 };
