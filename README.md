@@ -1,40 +1,29 @@
 # smart-contract-token-gbc
 Token ERC20 utility para ser distribuído entre os colaboradores da GO.
 
+- Nome: `GOBlockchain Coin`
+- Símbolo: `GBC Coin`
+- Casas decimais: `18`
+- Total supply: `É dinâmico conforme os tokens são distríbuidos`
+
 ### Visão geral
 
-O Token GoBlockchain GBC será criado com objetivo de ser distribuído aos colaboradores da DAO. Ou seja todos aqueles que colaboram devem receber seus tokens referentes a cada atividade.
+O Token GBC será criado com objetivo de ser distribuído aos colaboradores da GO. Ou seja todos aqueles que colaboram devem receber seus tokens referentes a cada atividade aprovada.
 
 ### Lastro
 
-O lastro do Token são as atividades a serem desenvolvidas para a construção e manutenção da DAO.
+O lastro do Token são as atividades a serem desenvolvidas para a construção e manutenção da GO.
 
 ### Utilidade
 
-O que posso fazer com meu token?
+O que posso fazer com meu token GBC?
 
-- Inscrição nos cursos GoBlockchain;
+- Inscrição nos cursos GOBlockchain;
 - Troca por descontos em serviços e produtos dos nossos parceiros;
-- Troca por produtos da GoBlockchai ;(Camisas, Canecas, etc)
-- ~~Direito a votação~~;
+- Troca por produtos da GOBlockchain (Camisas, Canecas, etc)
 - Venda dos tokens para inscrições nos cursos da GO.
+- Utilizar como meio de reputação em projetos da GOSolutions e GOEducation.
 
 ### Como adquirir
 
-- Você pode adquirir os tokens da GO entregando atividades que estão no [trello da GO](https://trello.com/b/mnVqJvV8/goblockchain-colaboradores)
-
-## Reputação
-
-Quanto mais você colabora maior são seus benefícios.
-
-**Colaborador 1 a 50**
-> Esse perfil pode contribuir com conteúdo e votações
-
-**Embaixador 50 a 100**
-> Esse perfil é pode contribuir com a organização de meetups, direito a uma camisa da GO, realizar palestras, membro do linkedin e site da Go.
-
-**Especialistas 100 a 300**
-> Esse perfil tem acesso em realizar aulas utilizando as DApps da GO, participar de projetos de consultoria, projetos de desenvolvimento de produtos e criação das DApps.
-
-**Conselho acima de 300**
-> Os participantes do conselho participam da definição das estratégia da GO para serem levadas a votação pelos colaboradores.
+- Você pode adquirir os tokens GBC realizando as atividades que estão no [trello da GO](https://trello.com/b/mnVqJvV8/goblockchain-colaboradores)
