@@ -1,4 +1,5 @@
-# smart-contract-token-gbc
+# <img src="logo.png" alt="GOBlockchain" width="100px">
+
 Token ERC20 utility para ser distribuído entre os colaboradores da GO.
 
 - Nome: `GOBlockchain Coin`
