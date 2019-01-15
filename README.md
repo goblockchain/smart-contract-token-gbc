@@ -6,6 +6,7 @@ Token ERC20 utility para ser distribuído entre os colaboradores da GO.
 - Símbolo: `GBC Coin`
 - Casas decimais: `18`
 - Total supply: `É dinâmico conforme os tokens são distríbuidos`
+- [Link do token na rede de mainnet](https://etherscan.io/token/0x48fd2b9e019f137730db101552d04d471fbac9d1)
 
 ### Visão geral
 
